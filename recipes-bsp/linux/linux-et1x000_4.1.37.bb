@@ -25,6 +25,7 @@ RPROVIDES_kernel-image = "kernel-image-${KERNEL_VERSION}"
 
 SRC_URI += "http://gi-et.info/et1x000/linux-${PV}-${SRC}.tar.xz \
     file://kernel-gcc6.patch \
+    file://kernel-gcc7.patch \
     file://defconfig \
     file://0001-Support-TBS-USB-drivers-for-4.1-kernel.patch \
     file://0001-TBS-fixes-for-4.1-kernel.patch \
